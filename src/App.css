@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2ece4;
+}
+
+.board-container {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #1b1b1b;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.board {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 12.5%;
+  height: 12.5%;
+}
+
+.square-black {
+  background: #755540;
+}
+
+.square-white {
+  background: #f0e4cb;
+}
+
+.board-square {
+  width: 100%;
+  height: 100%;
+}
+
+.piece-container {
+  cursor: grab;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piece {
+  max-width: 70%;
+  max-height: 70%;
+}
