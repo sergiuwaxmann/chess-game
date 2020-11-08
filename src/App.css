@@ -14,8 +14,7 @@
 .board-container {
   width: 600px;
   height: 600px;
-  border: 1px solid #1b1b1b;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .board {
@@ -64,4 +63,35 @@
 .piece {
   max-width: 70%;
   max-height: 70%;
+}
+
+.vertical-text {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  padding: 10px;
+  font-family: sans-serif;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  background: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0.3rem rgba(120, 120, 120, 0.65);
+}
+
+button:hover {
+  filter: brightness(120%);
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.vertical-text span {
+  color: white;
 }
