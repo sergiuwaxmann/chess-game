@@ -30,6 +30,11 @@
   height: 12.5%;
 }
 
+.promote-square {
+  width: 50%;
+  height: 50%;
+}
+
 .square-black {
   background: #755540;
 }
@@ -50,6 +55,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .piece {
