@@ -1,5 +1,5 @@
 # Chess Game
 
-https://chess-game-sergiuwaxmann.netlify.app
+https://sergiuwaxmann-chess-game.netlify.app
 
 ![](showcase.jpg)
